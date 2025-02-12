@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+    padding: 10px 20px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #fcb69f !important;
+}
+
+/* Product Cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+.card-img-top:hover {
+    opacity: 0.8;
+}
+.card-body {
+    text-align: center;
+   
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #d5bdaf;
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: #ff4f2f;
+}
+
+/* Loader */
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top: 5px solid #ff7e67;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 50px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.dancing-script{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .containermain{
+    width: 100%;
+  }
+  .rose{
+    font-size: xx-large;
+  }
